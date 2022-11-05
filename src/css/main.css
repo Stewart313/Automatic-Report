@@ -1,0 +1,249 @@
+.Header {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 57px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    z-index: 99;
+    transition: top 300ms ease-in-out 0s;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.logo {
+  height: 49px;
+  width: auto;
+}
+.Header div{
+  margin: 0px 60px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+body {
+  margin: 0;
+  color: #202834;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  background-color: #fff;
+  font-feature-settings: 'tnum';
+}
+.content {
+  position: absolute;
+  top: 57px;
+  width: 100%;
+}
+.backgroundImage {
+  background: url(https://business.income.com.sg/static/media/illustration_pink-3.4348590d.svg) center bottom / 80% no-repeat transparent;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  bottom: 112px;
+  position: fixed;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.leftImage {
+    width: 300px;
+    height: 100%;
+    margin-bottom: 25px;
+    background: url(https://business.income.com.sg/static/media/illustration_pink-2.8e7cd94d.svg) left bottom no-repeat transparent;
+}
+.rightImage {
+    width: 300px;
+    height: 100%;
+    margin-bottom: 25px;
+    background: url(https://business.income.com.sg/static/media/illustration_pink-1.2447c8cf.svg) right bottom no-repeat transparent;
+}
+.footer {
+  background-color: rgb(69, 69, 69);
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  height: 80px;
+  z-index: 1000;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.footer-content {
+    margin: 0px 60px;
+}
+.mb10 {
+  margin-bottom: 10px;
+  display: flex;
+}
+.footer-content a {
+  color: rgb(255, 255, 255);
+}
+body a {
+  text-decoration: none;
+}
+
+a {
+  color: #0084e1;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  -webkit-text-decoration-skip: objects;
+  font-family: 'Muli-Regular';
+}
+a:hover {
+  color: #e6863c;
+}
+.backContent {
+    position: relative;
+    min-height: 100%;
+    margin-top: 60px;
+}
+.igYDCD .p-1 {
+    text-align: center;
+    font-size: 72px;
+    color: var(--color-font);
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
+    font-family: var(--color-bold) !important;
+}
+html .content-box {
+    min-width: 880px;
+    background: 0% 0% no-repeat padding-box padding-box rgb(255, 255, 255);
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 40px 80px;
+    width: 60%;
+    max-width: 1200px;
+}
+.dbYSgA {
+    font-size: 32px;
+    color: var(--color-font);
+    font-family: Muli-bold, "Noto Sans SC", sans-serif !important;
+}
+.hNiewb {
+    color: var(--color-font);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Muli-light, "Noto Sans SC", sans-serif !important;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.welcomeBack {
+    font-size: 32px;
+    font-family: Muli-Regular, "Noto Sans SC", sans-serif !important;
+    font-weight: bold;
+}
+.commonText {
+    color: var(--color-font);
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.formName{
+    font-size: 18px;
+    color: rgb(32,40,52);
+    font-family: Muli-Regular, "Noto Sans SC", sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+@font-face {
+  font-family: "Muli-Regular";
+  src: url("./Muli-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Muli-Light";
+  src: url("./Muli-Light.ttf");
+}
+.inputLine {
+    color: rgb(193, 201, 214);
+}
+.antInput {
+    outline: none !important;
+    border-width: 0px !important;
+    box-shadow: none !important;
+    font-size: 18px;
+    padding-left: 0px;
+    font-family: 'Muli-Regular';
+}
+/* 
+.antInput:focus {
+    outline: none !important;
+    border-width: 0px !important;
+    box-shadow: none !important;
+} */
+
+.forgetPassword{
+  margin-top: 25px;
+  width: 60%;
+  text-align: right;
+}
+.signInButton{
+  height: 50px;
+  padding: 0px 35px;
+  text-transform: uppercase;
+  font-size: 16px;
+  background: linear-gradient(to left, rgb(249, 137, 125), rgb(233, 115, 134), rgb(210, 97, 143), rgb(178, 85, 152), rgb(138, 79, 158));
+  border-radius: 25px;
+  border: 1px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+p{
+  font-family: 'Muli-Regular';
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+.other {
+  margin-top: 20px;
+}
+.inputForm {
+    width: 60%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.otp{
+    border-style: solid;
+    border-width: 1px;
+    border-color: 'grey';
+    border-radius: 5px;
+    width: 50%;
+}
+.divider{
+    position: relative;
+    top: -0.06em;
+    display: inline-block;
+    width: 1px;
+    height: 0.9em;
+    margin: 0 8px;
+    vertical-align: middle;
+    background-color: white;
+}
